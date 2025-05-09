@@ -9,6 +9,15 @@ A simple **To-Do web application** demonstrating:
 - ✅ GitHub Actions for automated CI/CD
 
 ---
+## 🗂 Project Structure
+
+flask-docker-ci-cd-app/
+│
+├── app/ # Flask app (main.py, requirements.txt, Dockerfile)
+├── .github/workflows/ # GitHub Actions CI config
+├── docker-compose.yml # Compose config for web, db, redis
+├── .env.example # Environment variables template
+└── README.md # Project documentation
 
 ## 🚀 Features
 
@@ -18,6 +27,8 @@ A simple **To-Do web application** demonstrating:
 - Project auto-tested and built via GitHub Actions workflow
 
 ---
+![CI](https://github.com/mzzuzaa/flask-docker-ci-cd-app/actions/workflows/main.yml/badge.svg)
+
 
 ## 🛠 Technologies Used
 
